@@ -1,0 +1,100 @@
+/* variables and @font-face imports */
+:root{
+    --roboto: "Roboto", cursive;
+    --mainColor: #3A9BFF;
+    --text-white: #FFFFFF;
+    --btn-dark: #000000;
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    src: url('../fonts/roboto-fonts/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-fonts/roboto-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-fonts/roboto-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-fonts/roboto-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-fonts/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* ===Box Model=== */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--roboto);
+}
+
+
+/* ===navigation=== */
+.bg-light{
+    background-color: #3A9BFF !important;
+}
+.navbar-brand{
+    font-weight: 600;
+    color: #007bff;
+}
+
+.navbar-nav .nav-item a{
+    font-weight: 200;
+    color: var(--text-white) !important;
+    padding: 10px;
+}
+.navbar-nav .nav-item .active{
+    background-color: #0455ac !important;
+    color: var(--text-white) !important;
+    border-radius: 10px !important;
+    box-shadow: -5px 5px 3px #0455ac;
+}
+
+.navbar-nav .nav-item a:hover{
+    background-color: #0455ac !important;
+    color: #2d0136 !important;
+    border-radius: 10px;
+    box-shadow: -5px 5px 3px #0455ac;
+}
+
+
+/* ===main=== */
+#intro-section{
+    position: relative;
+    top: 0;
+    left: 0;
+    max-height: 500px !important;
+    background: url(../img/coolbg.jpg) transparent;
+    background-size: contain;
+    /* filter: sepia(); */
+    color: var(--text-white);
+}
+
+.avatar{
+    max-width: 170px;
+    max-height: 170px;
+    border-radius: 80px;
+}
+
+h3 #title{
+    text-transform: uppercase;
+    color: #febf34;
+    font-weight: 900;
+}
+/* btn 1 */
+.btn-light .btn-outline-dark{
+    font-family: cursive !important;
+    font-size: 8px !important;
+    font-weight: 40;
+}
+.intro-btn .btn-light{
+    background-color: var(--mainColor) !important;
+    border-color: var(--mainColor);
+    color: var(--text-white);
+}
+.intro-btn .btn-light:hover{
+    background-color: var(--btn-dark) !important;
+}
+.intro-btn .btn-outline-dark{
+    color: var(--text-white);
+}
+.intro-btn .btn-outline-dark:hover{
+    background-color: var(--mainColor) !important;
+}
