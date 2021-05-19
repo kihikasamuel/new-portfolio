@@ -62,15 +62,22 @@ body{
     left: 0;
     max-height: 500px !important;
     background: url(../img/coolbg.jpg) transparent;
+    filter: brightness(1.3);
     background-size: contain;
     /* filter: sepia(); */
     color: var(--text-white);
+}
+
+#intro-section .container{
+    backdrop-filter: brightness(0.35);
+    width: inherit;
 }
 
 .avatar{
     max-width: 170px;
     max-height: 170px;
     border-radius: 80px;
+    backdrop-filter: brightness(0.1);
 }
 
 h3 #title{
