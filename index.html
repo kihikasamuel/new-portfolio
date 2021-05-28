@@ -14,7 +14,7 @@
 <body>
     <!-- ====================================BEGIN Header======================================== -->
     <header class="header">
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <nav class="navbar navbar-expand-md navbar-light bg-lighter">
             <div class="container">
                 <!-- <a href="index.html" class="navbar-brand"><i class="fas fa-user-tie"></i>amSamKihika</a> -->
                 <!-- collapse on mobile -->
@@ -44,6 +44,8 @@
                         </li>
                     </ul>
                 </div>
+                <div class="mr-auto"></div>
+                <i class="bi bi-moon"></i>
             </div>
         </nav>
     </header>
@@ -60,9 +62,9 @@
                         </div>
                     </div>
                     <div class="mt-3 p-2">
-                        <h5>Hi There!</h5>
+                        <h5>Hi, I'm Sam Kihika 👋</h5>
                         <h3>I'm <span id="title">a web developer</span>.</h3>
-                        <p>I'm <strong>Frontend-cum-Fullstack Web Developer</strong> based in Nairobi, Kenya.</p>
+                        <p>I'm <strong>Frontend-cum-fullstack Web Developer</strong> based in Nairobi, Kenya.</p>
                         <p>I help you build attractive, highly responsive and accessible web apps with 
                             <br/> crafted code.
                         </p>
@@ -80,29 +82,29 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <h5>Get to know me</h5>
-                        <p><strong>I'm Sam Kihika, a fullstack web developer.</strong></p>
-                        <p>I'm a freelancer based in Nairobi, Kenya and have been building noteworthy website
-                            for the last two years. I'm keen to helping clients get their idea into a "real thing".
+                        <p><strong>Hello World!</strong></p>
+                        <p>I'm a freelancing fullstack web developer based in Nairobi,
+                            Kenya and have been building noteworthy website
+                            for the last two years. I'm keen to helping clients get
+                            their idea into a "real thing".
                         </p>
                     </div>
                     <div class="col-sm-6">
-                        <ul>
-                            <li><span>Residence</span>: 26</li>
-                            <li><span>Residence</span>: Kenya</li>
-                            <li><span>Address</span>: <Address>Lumumba Drive, Nairobi</Address></li>
-                            <li><span>Email</span>: summitros@gmail.com</li>
-                        </ul>
+                        <p><span>Age</span>: 26</p>
+                        <p><span>Residence</span>: Kenya</p>
+                        <p><span>Address</span>: Lumumba Drive, Nairobi</p>
+                        <p><span>Email</span>: summitros@gmail.com</p>
                     </div>
                 </div>
 
+                <div class="row services-head"><h5>What I do</h5></div>
                 <div class="row card-holder">
                     <div class="col-md-4 col-sm-6">
-                        <h5>What I do</h5>
                         <div class="card">
                             <div class="car-body">
                                 <h5 class="card-title">
                                     <i class="fas fa-globe"></i>
-                                    Build Development
+                                    Web Development
                                 </h5>
                                 <p class="card-text">
                                     I build responsive websites.
@@ -117,8 +119,8 @@
                         <div class="card">
                             <div class="car-body">
                                 <h5 class="card-title">
-                                    <i class="fas fa-globe"></i>
-                                    Build Development
+                                    <i class="bi bi-credit-card"></i>
+                                    Payment Integration
                                 </h5>
                                 <p class="card-text">
                                     I build responsive websites.
@@ -133,8 +135,8 @@
                         <div class="card">
                             <div class="car-body">
                                 <h5 class="card-title">
-                                    <i class="fas fa-globe"></i>
-                                    Build Development
+                                    <i class="fas fa-ticket-alt"></i>
+                                    Support
                                 </h5>
                                 <p class="card-text">
                                     I build responsive websites.
@@ -145,6 +147,22 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="row">Skills</div>
+                <div class="row">
+
+                </div>
+
+                <div class="row">Experience</div>
+                <div class="row">
+                    
+                </div>
+
+                <div class="row">Interests</div>
+                <div class="row">
+                    
+                </div>
+
             </div>
         </section>
     </main>
@@ -156,5 +174,12 @@
     <!-- scripts -->
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
+    <script>
+        let $switch = document.querySelector('.bi-moon');
+        $switch.addEventListener('click', (event)=>{
+            let body = document.querySelector("body");
+            body.style.backgroundColor = "#dedada";
+        });
+    </script>
 </body>
 </html>

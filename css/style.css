@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 /* variables and @font-face imports */
 :root{
     --roboto: "Roboto", cursive;
@@ -25,13 +26,18 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: var(--roboto);
+    background: var(--bg-color);
 }
+
+/* Begin theme */
+.bi-moon{
+    color: #febf34;
+    cursor: pointer;
+}
+/* end switch theme */
 
 
 /* ===navigation=== */
-.bg-light{
-    background-color: var(--bg-color) !important;
-}
 .navbar-brand{
     font-weight: 600;
     color: #007bff;
@@ -43,14 +49,13 @@ body{
     padding: 10px;
 }
 .navbar-nav .nav-item .active{
-    background-color: #0455ac !important;
+    background-color: var(--btn-dark);
     color: var(--text-white) !important;
     border-radius: 10px !important;
 }
 
 .navbar-nav .nav-item a:hover{
-    background-color: #0455ac !important;
-    color: #2d0136 !important;
+    background-color: var(--btn-dark);
     border-radius: 10px;
 }
 
@@ -64,7 +69,6 @@ main, header, .row-intro{
     position: relative;
     top: 0;
     left: 0;
-    background: var(--bg-color);
     color: var(--text-white);
     width: inherit;
     height: var(--section-height);
@@ -124,9 +128,7 @@ h3 #title{
 /* about section */
 #about-section{
     padding: 15px;
-    background-color: var(--bg-color);
     width: inherit;
-    height: var(--section-height);
     overflow: hidden;
 }
 
@@ -139,11 +141,11 @@ h3 #title{
     color: darkgray;
 }
 
-ul li span{
+#about-section span{
     color: var(--mainColor);
 }
 
-ul li{
+#about-section .list, address{
     color: var(--text-white);
     font-weight: 700;
     letter-spacing: 2px;
@@ -151,15 +153,24 @@ ul li{
 }
 
 /* cards */
-.card-holder{
+.services-head{
     margin-top: 40px;
+    padding: 15px;
+}
+
+.card-holder{
+    overflow: auto;
 }
 
 .card{
     background: unset;
     padding: 15px;
     /* z-index: 600; */
-    box-shadow: -12px 12px 20px var(--bg-color);
+}
+
+.card:hover{
+    box-shadow: -12px 12px 20px var(--btn-dark);
+    cursor: pointer;
 }
 
 .card-title{
