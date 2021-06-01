@@ -106,7 +106,9 @@ h3 #title{
     font-size: 8px !important;
     font-weight: 40;
 }
-
+.btn-outline-dark{
+    border: solid 1px var(--text-white)
+}
 .intro-btn .btn-light{
     background-color: var(--mainColor) !important;
     border-color: var(--mainColor);
@@ -179,4 +181,33 @@ h3 #title{
 
 .card-text{
     color: darkgray;
+}
+
+/* ===skills=== */
+#skills .col-sm-3{
+    background: var(--text-white);
+    color: var(--text-white);
+    margin: 0px 30px 20px 10px;
+    max-width: 120px;
+    height: 120px;
+    border-radius: 25px;
+    padding: 30px;
+}
+#skills .col-sm-3:hover{
+    filter: brightness(0.1);
+}
+/* icons resize */
+.skill-icon{
+    max-height: 50px;
+}
+
+/* ===Education=== */
+#education{
+    color: var(--text-white);
+}
+
+
+/* ===Interests=== */
+#interests{
+    color: var(--text-white);
 }
