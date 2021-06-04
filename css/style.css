@@ -5,8 +5,11 @@
     --mainColor: #3A9BFF;
     --text-white: #FFFFFF;
     --btn-dark: #000000;
+    --dark-theme: #191C1A;
+    --dark2-theme: #1b1b1c;
     --section-height: calc(100vh - 12vh);
     --bg-color: #343a40;
+    --text-gray: darkgray;
 }
 @font-face {
     font-family: 'Roboto';
@@ -26,7 +29,15 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: var(--roboto);
-    background: var(--bg-color);
+    background: var(--dark2-theme);
+}
+
+#cards, #know-me, #education{
+    border-bottom:solid 1px var(--text-gray)
+}
+
+.card, .intro-part, .edu-levels{
+    margin-bottom: 50px;
 }
 
 /* Begin theme */
@@ -39,18 +50,18 @@ body{
 
 /* ===navigation=== */
 .navbar-brand{
-    font-weight: 600;
-    color: #007bff;
+    font-weight: 900;
+    color:var(--text-gray) !important;
 }
 
 .navbar-nav .nav-item a{
     font-weight: 200;
-    color: var(--text-white) !important;
+    color: var(--text-gray) !important;
     padding: 10px;
 }
 .navbar-nav .nav-item .active{
-    background-color: var(--btn-dark);
-    color: var(--text-white) !important;
+    /* background-color: var(--btn-dark); */
+    color: var(--text-gray) !important;
     border-radius: 10px !important;
 }
 
@@ -58,7 +69,6 @@ body{
     background-color: var(--btn-dark);
     border-radius: 10px;
 }
-
 
 /* ===main=== */
 main, header, .row-intro{
@@ -69,7 +79,7 @@ main, header, .row-intro{
     position: relative;
     top: 0;
     left: 0;
-    color: var(--text-white);
+    color: var(--text-gray);
     width: inherit;
     height: var(--section-height);
     overflow: hidden;
@@ -94,8 +104,12 @@ main, header, .row-intro{
     backdrop-filter: brightness(0.1);
 }
 
+#intro-section h5{
+    font-weight: 900;
+}
+
 h3 #title{
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #febf34;
     font-weight: 900;
 }
@@ -106,13 +120,15 @@ h3 #title{
     font-size: 8px !important;
     font-weight: 40;
 }
+
 .btn-outline-dark{
     border: solid 1px var(--text-white)
 }
+
 .intro-btn .btn-light{
     background-color: var(--mainColor) !important;
     border-color: var(--mainColor);
-    color: var(--text-white);
+    color: var(--text-gray);
 }
 
 .intro-btn .btn-light:hover{
@@ -140,7 +156,7 @@ h3 #title{
 }
 
 #about-section p{
-    color: darkgray;
+    color: var(--text-gray);
 }
 
 #about-section span{
@@ -180,7 +196,7 @@ h3 #title{
 }
 
 .card-text{
-    color: darkgray;
+    color: var(--text-gray);
 }
 
 /* ===skills=== */
@@ -203,11 +219,11 @@ h3 #title{
 
 /* ===Education=== */
 #education{
-    color: var(--text-white);
+    color: var(--text-gray);
 }
 
 
 /* ===Interests=== */
 #interests{
-    color: var(--text-white);
+    color: var(--text-gray);
 }

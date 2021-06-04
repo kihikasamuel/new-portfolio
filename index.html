@@ -16,7 +16,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-md navbar-light bg-lighter">
             <div class="container">
-                <!-- <a href="index.html" class="navbar-brand"><i class="fas fa-user-tie"></i>amSamKihika</a> -->
+                <a href="index.html" class="navbar-brand">Sam Kihika</a>
                 <!-- collapse on mobile -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleMenu" aria-expanded="true"
@@ -24,11 +24,15 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- collapse on mobile -->
+                <!-- <div class="mr-auto"></div> -->
                 <div class="collapse navbar-collapse mr-auto" id="collapsibleMenu">
-                    <!-- <div class="mr-auto"></div> -->
+                    <div class="mr-auto"></div>
                     <ul class="navbar-nav nav-pills me-3 navbar-nav-scroll">
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link active m-2" aria-current="page">Intro</a>
+                            <a href="" class="nav-link m-2"><i class="bi bi-moon"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link m-2" aria-current="page">Intro</a>
                         </li>
                         <li class="nav-item">
                             <a href="index.html" class="nav-link m-2">Skills</a>
@@ -44,8 +48,6 @@
                         </li>
                     </ul>
                 </div>
-                <div class="mr-auto"></div>
-                <i class="bi bi-moon"></i>
             </div>
         </nav>
     </header>
@@ -55,7 +57,7 @@
     <main class="main-area">
         <section id="intro-section">
             <div class="container">
-                <div class="row-intro d-flex flex-row justify-content-center p-md-5 p-sm-3">
+                <div class="row-intro d-md-flex flex-md-row flex-sm-column justify-content-center p-md-5 p-sm-3">
                     <div class="p-2">
                         <div class="m-2">
                             <img src="./img/avatar.jpeg" class="img-fluid avatar" alt="">
@@ -63,10 +65,15 @@
                     </div>
                     <div class="mt-3 p-2">
                         <h5>Hi, I'm Sam Kihika 👋</h5>
-                        <h3>I'm <span id="title">a web developer</span>.</h3>
-                        <p>I'm <strong>Frontend-cum-fullstack Web Developer</strong> based in Nairobi, Kenya.</p>
-                        <p>I help you build attractive, highly responsive and accessible web apps with 
-                            <br/> crafted code.
+                        <h6>I'm a<span id="title"> web developer</span>.</h6>
+                        <!-- <p>I'm Frontend-cum-fullstack Web Developer based in Nairobi, Kenya.</p> -->
+                        <p>
+                            I help you build attractive, highly responsive and accessible web apps with 
+                            <br/>carefully crafted code.
+                        </p>
+                        <p>
+                            I'm so grateful you made it your way to my site. Am sure you'll love it taking
+                            <br>a tour around to know more about me.
                         </p>
                         <div class="d-flex flex-row intro-btn">
                             <a href="#" class="btn btn-sm btn-light rounded-pill pl-3 pr--3 m-2"> <span class="fas fa-user"></span> More About Me</a>
@@ -79,9 +86,9 @@
 
         <section id="about-section">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h5>Get to know me</h5>
+                <div class="row services-head"><h5>Get to know me</h5></div>
+                <div class="row" id="know-me">
+                    <div class="col-sm-6 intro-part">
                         <p><strong>Hello World!</strong></p>
                         <p>I'm a freelancing fullstack web developer based in Nairobi,
                             Kenya and have been building noteworthy website
@@ -89,7 +96,7 @@
                             their idea into a "real thing".
                         </p>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 intro-part">
                         <p><span>Age</span>: 26</p>
                         <p><span>Residence</span>: Kenya</p>
                         <p><span>Address</span>: Lumumba Drive, Nairobi</p>
@@ -97,19 +104,21 @@
                     </div>
                 </div>
 
-                <div class="row services-head"><h5>What I do</h5></div>
-                <div class="row card-holder">
+                <div class="row services-head"><h5>Experience</h5></div>
+                <div class="row card-holder" id="cards">
                     <div class="col-md-4 col-sm-6">
                         <div class="card">
                             <div class="car-body">
                                 <h5 class="card-title">
                                     <i class="fas fa-globe"></i>
-                                    Web Development
+                                    Ezen Financials
                                 </h5>
                                 <p class="card-text">
                                     I build responsive websites.
                                     I build responsive websites.
                                     I build responsive websites.
+                                    <!-- Working a software support staff and web developer.
+                                    Helping clients migrate from manual record keeping to using the cloud. -->
                                 </p>
                             </div>
                         </div>
@@ -120,7 +129,7 @@
                             <div class="car-body">
                                 <h5 class="card-title">
                                     <i class="bi bi-credit-card"></i>
-                                    Payment Integration
+                                    Freelancer Web Developer
                                 </h5>
                                 <p class="card-text">
                                     I build responsive websites.
@@ -148,7 +157,7 @@
                     </div>
                 </div>
 
-                <div class="row services-head"><h5>Skills <i class="bi bi-wrench"></i></h5></div>
+                <div class="row services-head"><h5>Skills <i class="bi bi-tools"></i></h5></div>
                 <div class="row justify-content-center" id="skills">
                     <div class="col-md-4 col-sm-3">
                         <svg viewBox="0 0 128 128" class="skill-icon">
@@ -194,15 +203,15 @@
 
                 <div class="row services-head"><h5>Education</h5></div>
                 <div class="row" id="education">
-                    <div class="d-flex flex-column">
-                        <div class="edu-levels">
+                    <div class="d-flex flex-column justify-content-end">
+                        <div class="edu-levels justify-content-end">
                             <span>August 2019 - Kenya 🇰🇪</span>
-                            <h5>Self-Learning</h5>
+                            <p><strong>Self-Learning</strong></p>
                             <p>JS, Vue.js, Nuxt.js, Python-Flask</p>
                         </div>
-                        <div class="edu-levels">
+                        <div class="edu-levels justify-content-end">
                             <span>August 2014 - April 2018 - Kenya 🇰🇪</span>
-                            <h5>B.Sc. Computer Science</h5>
+                            <p><strong>B.Sc. Computer Science</strong></p>
                             <p>Chuka University, Kenya</p>
                         </div>
                     </div>
@@ -211,32 +220,93 @@
                 <div class="row services-head"><h5>Interests</h5></div>
                 <div class="row" id="interests">
                     <div class="d-flex flex-column">
-                        <div class="edu-levels">
-                            Job
+                        <div class="card">
+                            <div class="car-body">
+                                <h5 class="card-title">
+                                    Job
+                                    <i class="fas fa-code-branch"></i>
+                                </h5>
+                                <p class="card-text">
+                                    My motivation is work itsel. I like solving new challenges as they
+                                    build my skills.
+                                </p>
+                            </div>
                         </div>
-                        <div class="edu-levels">
-                            Coding
+                        <div class="card">
+                            <div class="car-body">
+                                <h5 class="card-title">
+                                    Coding
+                                    <i class="bi bi-laptop"></i>
+                                </h5>
+                                <p class="card-text">
+                                    Every good day is a coding day. Ooops! It's the only way to keep track
+                                    of days.
+                                </p>
+                            </div>
                         </div>
-                        <div class="edu-levels">
-                            Chess
+                        <div class="card">
+                            <div class="car-body">
+                                <h5 class="card-title">
+                                    Chess
+                                    <i class="fas fa-chess-bishop"></i>
+                                </h5>
+                                <p class="card-text">
+                                    An amateur chess player looking to forward to challenging the best chess
+                                    players. It's not a suprise to find me on chess.com
+                                </p>
+                            </div>
                         </div>
-                        <div class="edu-levels">
-                            Hiking
+                        <div class="card">
+                            <div class="car-body">
+                                <h5 class="card-title">
+                                    Hiking
+                                    <i class="fas fa-walking"></i>
+                                </h5>
+                                <p class="card-text">
+                                    I find pleasure walking in nature.  Discovering nature trails and footpaths
+                                    with friends either on a day or night.
+                                </p>
+                            </div>
                         </div>
-                        <div class="edu-levels">
-                            Caring for Environment
+                        <div class="card">
+                            <div class="car-body">
+                                <h5 class="card-title">
+                                    Environment
+                                    <i class="bi bi-flower2"></i>
+                                </h5>
+                                <p class="card-text">
+                                    I like spending part of my free time cleaning and taking care of the environment.
+                                </p>
+                            </div>
                         </div>
-                        <div class="edu-levels">
-                            Novels
+                        <div class="card">
+                            <div class="car-body">
+                                <h5 class="card-title">
+                                    Novels
+                                    <i class="bi bi-book-half"></i>
+                                </h5>
+                                <p class="card-text">
+                                    My list of novels fall under Adventure Fiction.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row services-head"><h5>Lanuages</h5></div>
-                <div class="row d-flex flex-column" id="interests">
-                    <h5>English - Fluent</h5>
-                    <h5>Swahili - Fluent</h5>
-                    <h5>Spaish - Basic</h5>
+                <div class="row d-flex flex-column justify-content-sm-center" id="interests">
+                    <div class="lang-levels d-flex flex-row">
+                        <p class="pr-3"><strong>English</strong></p>
+                        <p>Fluent</p>
+                    </div>
+                    <div class="lang-levels d-flex flex-row">
+                        <p class="pr-3"><strong>Swahili</strong></p>
+                        <p>Fluent</p>
+                    </div>
+                    <div class="lang-levels d-flex flex-row">
+                        <p class="pr-3"><strong>Spanish</strong></p>
+                        <p>Basic</p>
+                    </div>
                 </div>
 
             </div>
@@ -253,8 +323,10 @@
     <script>
         let $switch = document.querySelector('.bi-moon');
         $switch.addEventListener('click', (event)=>{
+            event.preventDefault();
             let body = document.querySelector("body");
-            body.style.backgroundColor = "#dedada";
+            body.style.backgroundColor = "#FFFFFF";
+            a.style.color = "#000000";
         });
     </script>
 </body>
