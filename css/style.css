@@ -173,7 +173,16 @@ h3 #title{
 /* cards */
 .services-head{
     margin-top: 40px;
-    padding: 15px;
+    /* padding: 15px; */
+}
+
+.experience{
+    min-height: 200px;
+    /* transform: rotate(180deg); */
+}
+
+.experience:hover{
+    /* transform: rotate(-180deg); */
 }
 
 .card-holder{
