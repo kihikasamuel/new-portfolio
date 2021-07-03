@@ -10,6 +10,9 @@
     --section-height: calc(100vh - 12vh);
     --bg-color: #343a40;
     --text-gray: darkgray;
+    /* --nav-text-color: aquamarine; */
+    --nav-text-color: #f92672;
+    --intro-text: #e7da63;
 }
 @font-face {
     font-family: 'Roboto';
@@ -32,7 +35,7 @@ body{
     background: var(--dark2-theme);
 }
 
-#cards, #know-me, #education{
+#cards, #know-me, #education, header{
     border-bottom:solid 1px var(--text-gray)
 }
 
@@ -65,10 +68,10 @@ body{
     border-radius: 10px !important;
 }
 
-.navbar-nav .nav-item a:hover{
+/* .navbar-nav .nav-item a:hover{
     background-color: var(--btn-dark);
     border-radius: 10px;
-}
+} */
 
 /* ===main=== */
 main, header, .row-intro{
@@ -79,7 +82,7 @@ main, header, .row-intro{
     position: relative;
     top: 0;
     left: 0;
-    color: var(--text-gray);
+    color: var(--intro-text);
     width: inherit;
     height: var(--section-height);
     overflow: hidden;
@@ -106,12 +109,30 @@ main, header, .row-intro{
 
 #intro-section h5{
     font-weight: 900;
+    color: var(--nav-text-color);
 }
 
 h3 #title{
     text-transform: capitalize;
-    color: #febf34;
+    color: var(--intro-text);
     font-weight: 900;
+}
+
+.wave{
+    animation-name: waving;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes waving {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(30deg);}
+    30% {transform: rotate(-30deg);}
+    50% {transform: rotate(50deg);}
+    75% {transform: rotate(-10deg);}
+    100% {transform: rotate(0deg);}
+    
 }
 
 /* btn 1 */
@@ -136,7 +157,7 @@ h3 #title{
 }
 
 .intro-btn .btn-outline-dark{
-    color: var(--text-white);
+    color: var(--text-gray);
 }
 
 .intro-btn .btn-outline-dark:hover{
@@ -150,21 +171,21 @@ h3 #title{
     overflow: hidden;
 }
 
-#about-section h5, strong{
-    color: var(--text-white);
+#about-section h5{
+    color: var(--nav-text-color);
     font-weight: 700;
 }
 
 #about-section p{
-    color: var(--text-gray);
+    color: var(--intro-text);
 }
 
 #about-section span{
-    color: var(--mainColor);
+    color: var(--nav-text-color);
 }
 
 #about-section .list, address{
-    color: var(--text-white);
+    color: var(--intro-text);
     font-weight: 700;
     letter-spacing: 2px;
     list-style: none;
@@ -181,9 +202,10 @@ h3 #title{
     /* transform: rotate(180deg); */
 }
 
-.experience:hover{
+/* .experience:hover{ */
     /* transform: rotate(-180deg); */
-}
+    /* word-wrap: ; */
+/* } */
 
 .card-holder{
     overflow: auto;
@@ -211,7 +233,7 @@ h3 #title{
 /* ===skills=== */
 #skills .col-sm-3{
     background: var(--text-white);
-    color: var(--text-white);
+    color: var(--intro-text);
     margin: 0px 30px 20px 10px;
     max-width: 120px;
     height: 120px;
@@ -220,6 +242,11 @@ h3 #title{
 }
 #skills .col-sm-3:hover{
     filter: brightness(0.1);
+}
+
+strong, .intro-part p span {
+    /* color: aquamarine !important; */
+    color: var(--nav-text-color);
 }
 /* icons resize */
 .skill-icon{
@@ -231,6 +258,9 @@ h3 #title{
     color: var(--text-gray);
 }
 
+.edu-levels span {
+    color: var(--text-gray) !important;
+}
 
 /* ===Interests=== */
 #interests{
