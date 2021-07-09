@@ -55,13 +55,14 @@ body{
 /* ===navigation=== */
 .navbar-brand{
     font-weight: 900;
-    color:var(--text-gray) !important;
+    color:var(--nav-text-color) !important;
 }
 
 .navbar-nav .nav-item a{
     font-weight: 200;
-    color: var(--text-gray) !important;
+    color: var(--nav-text-color) !important;
     padding: 10px;
+    font-family: var(--roboto), monospace;
 }
 .navbar-nav .nav-item .active{
     /* background-color: var(--btn-dark); */
@@ -69,10 +70,11 @@ body{
     border-radius: 10px !important;
 }
 
-/* .navbar-nav .nav-item a:hover{
-    background-color: var(--btn-dark);
-    border-radius: 10px;
-} */
+.navbar-nav .nav-item a:hover{
+    color: var(--text-gray);
+    /* background-color: var(--btn-dark); */
+    /* border-radius: 10px; */
+}
 
 /* ===main=== */
 main, header, .row-intro{
