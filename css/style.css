@@ -10,9 +10,10 @@
     --section-height: calc(100vh - 12vh);
     --bg-color: #343a40;
     --text-gray: darkgray;
-    /* --nav-text-color: aquamarine; */
-    --nav-text-color: #f92672;
-    --intro-text: #e7da63;
+    --nav-text-color: aquamarine;
+    /* --nav-text-color: #f92672; */
+    /* --main-text-color: #e7da63; */
+    --main-text-color: #FFFFFF;
 }
 @font-face {
     font-family: 'Roboto';
@@ -35,7 +36,7 @@ body{
     background: var(--dark2-theme);
 }
 
-#cards, #know-me, #education, header{
+#cards, #know-me, #education, header, #interests{
     border-bottom:solid 1px var(--text-gray)
 }
 
@@ -82,7 +83,7 @@ main, header, .row-intro{
     position: relative;
     top: 0;
     left: 0;
-    color: var(--intro-text);
+    color: var(--main-text-color);
     width: inherit;
     height: var(--section-height);
     overflow: hidden;
@@ -114,7 +115,7 @@ main, header, .row-intro{
 
 h3 #title{
     text-transform: capitalize;
-    color: var(--intro-text);
+    color: var(--main-text-color);
     font-weight: 900;
 }
 
@@ -177,7 +178,7 @@ h3 #title{
 }
 
 #about-section p{
-    color: var(--intro-text);
+    color: var(--main-text-color);
 }
 
 #about-section span{
@@ -185,7 +186,7 @@ h3 #title{
 }
 
 #about-section .list, address{
-    color: var(--intro-text);
+    color: var(--main-text-color);
     font-weight: 700;
     letter-spacing: 2px;
     list-style: none;
@@ -233,7 +234,7 @@ h3 #title{
 /* ===skills=== */
 #skills .col-sm-3{
     background: var(--text-white);
-    color: var(--intro-text);
+    color: var(--main-text-color);
     margin: 0px 30px 20px 10px;
     max-width: 120px;
     height: 120px;
