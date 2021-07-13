@@ -54,6 +54,7 @@ body{
 
 /* ===navigation=== */
 .navbar-brand{
+    font-family: var(--roboto), monospace;
     font-weight: 900;
     color:var(--nav-text-color) !important;
 }
