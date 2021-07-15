@@ -4,5 +4,6 @@ export default {
         '~/assets/all.min.css',
         '~/assets/style.css'
     ],
-    components: true
+    components: true,
+    ssr:false
 }

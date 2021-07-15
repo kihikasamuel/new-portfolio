@@ -5,6 +5,7 @@
                 <a href="index.html" class="navbar-brand">Sam Kihika</a>
 
                 <!-- collapse on mobile -->
+                <!--  -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleMenu" aria-expanded="false"
                     aria-controls="collapsibleMenu" aria-label="Toggle Navigation">
