@@ -1,5 +1,5 @@
 {
-    "name": "my-app",
+    "name": "samkihika.site",
     "scripts": {
         "dev": "nuxt",
         "build": "nuxt build",
@@ -7,6 +7,12 @@
         "start": "nuxt start"
     },
     "dependencies": {
+        "@babel/core": "^7.14.6",
+        "bootstrap": "^4.6.0",
+        "bootstrap-vue": "^2.21.2",
         "nuxt": "^2.15.7"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.14.7"
     }
 }

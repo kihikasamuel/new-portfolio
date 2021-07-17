@@ -1,9 +1,25 @@
+'use-strict'
 export default {
+
+    // custom css
     css: [
-        '~/assets/bootstrap.css',
         '~/assets/all.min.css',
         '~/assets/style.css'
     ],
+
+    // auto import components
     components: true,
-    ssr:false
+
+    // rendering
+    ssr:false,
+
+    // modules
+    modules: ['bootstrap-vue/nuxt'],
+
+    bootstrapVue: {
+        //bootstrapCSS: false, // Or `css: false`
+        bootstrapVueCSS: false, // Or `bvCSS: false`
+        icons: true //explicitly enable the IconsPlugin
+    }
+    
 }
