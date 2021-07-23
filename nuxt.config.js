@@ -1,6 +1,15 @@
 'use-strict'
 export default {
-
+    head: {
+        title: 'Samkihika.site: Fullstack JavaScript Developer',//process.env.npm_package_name || 
+        link: [
+            {rel: 'icon', href: 'favicon.jpeg', type: 'image/x-icon'}
+        ],
+        meta: [
+            {charset: 'utf-8'},
+            {name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
+        ]
+    },
     // custom css
     css: [
         '~/assets/all.min.css',
