@@ -1,14 +1,28 @@
 'use-strict'
 export default {
     head: {
-        title: 'Samkihika.site: Fullstack JavaScript Developer',//process.env.npm_package_name || 
+        title: 'Samkihika.site: Fullstack JavaScript Developer' || process.env.npm_package_name,
         link: [
             {rel: 'icon', href: 'favicon.jpeg', type: 'image/x-icon'}
         ],
         meta: [
             {charset: 'utf-8'},
-            {name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
+            {name: 'viewport', content: 'width=device-width, initial-scale=1.0'},
+            {hid: 'description', name: 'description', 
+                content: 'Get a developer for your next web project. Learn more about JavaScript and more about web development.'
+            },
+            {hid: 'keywords', name: 'keywords', 
+                content: 'Web development, dullstack developer, developer, software, software consultants in kenya, JavaScript couch, Sam Kihika, Kihika, Sam, Best portfolio, remote devs, best developers'
+            }
         ]
+    },
+    loading: {
+        name: 'three-bounce',
+        duration: 2000,
+        continuous: true,
+        color: 'aquamarine',
+        failedColorString: 'black',
+        height: '1px'
     },
     // custom css
     css: [

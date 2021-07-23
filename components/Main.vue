@@ -208,10 +208,12 @@
                                     <i class="fas fa-code-branch"></i>
                                 </h5>
                                 <p class="card-text">
-                                    I like solving coding challenges. Every new task builds
-                                    my skills.
-                                    I'm open for remote and on-site developer job.
+                                    If you are looking for a remote, freelancer or a long term
+                                    software developer who works with Vue.js, Nuxt.Js, PHP, or flask
+                                    I will be your right fit.
                                 </p>
+                                <p>Contact me <a href="/">here</a>.</p>
+                                
                             </div>
                         </div>
                         <div class="card">
@@ -221,9 +223,10 @@
                                     <i class="bi bi-laptop"></i>
                                 </h5>
                                 <p class="card-text">
-                                    Every good day is a coding day. Ooops! It's the only way to keep track
+                                    Every day is a coding day. Ooops! It's the only way to keep track
                                     of days.
                                 </p>
+                                <p>I like solving code chellenges.</p>
                             </div>
                         </div>
                         <div class="card">
@@ -246,9 +249,9 @@
                                     <i class="fas fa-walking"></i>
                                 </h5>
                                 <p class="card-text">
-                                    Nature heals. It's the gateway to loving our very existence. 
+                                    Nature is the gateway to loving our very existence. 
                                     On the lookout to discover nature trails and footpaths with
-                                    friends during the day or at night.
+                                    friends during the day or at night. I'm a Google Local Guide.
                                 </p>
                             </div>
                         </div>
@@ -270,7 +273,7 @@
                                     <i class="bi bi-book-half"></i>
                                 </h5>
                                 <p class="card-text">
-                                    My list of novels fall under Adventure Fiction.
+                                    I like reading fictional and adventore novels.
                                 </p>
                             </div>
                         </div>
