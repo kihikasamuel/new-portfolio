@@ -291,3 +291,8 @@ strong, .intro-part p span {
 #interests{
     color: var(--text-gray);
 }
+
+/* ===Interests=== */
+.blog-card-img, .blog-card{
+    max-width: 20vw;
+}

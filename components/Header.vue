@@ -2,7 +2,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-md navbar-light bg-lighter">
             <div class="container">
-                <a href="index.html" class="navbar-brand">Sam Kihika</a>
+                <a href="/" class="navbar-brand" @click.prevent="scrollMeTo('intro-section')">Sam Kihika</a>
 
                 <!-- collapse on mobile -->
                 <!--  -->
@@ -21,16 +21,16 @@
                             <a href="" class="nav-link m-2"><i class="bi bi-moon"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link m-2">Skills</a>
+                            <a href="#" class="nav-link m-2" @click.prevent="scrollMeTo('about-section')">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link m-2">Projects</a>
+                            <a href="index.html" class="nav-link m-2" @click.prevent="scrollMeTo('interests-head')">Interests</a>
                         </li>
                         <li class="nav-item">
                             <!-- <a href="index.html" class="nav-link m-2">Certification</a> -->
                         </li>
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link m-2">Contacts</a>
+                            <a href="index.html" class="nav-link m-2" @click.prevent="scrollMeTo('blogs')">Blog</a>
                         </li>
                     </ul>
                 </div>
@@ -41,20 +41,38 @@
 
 <script>
 export default {
+    // data() {},
+
+    methods: {
+
+        scrollMeTo(refName) {
+
+            var element = document.getElementById(refName);
+            var top = element.offsetTop;
+
+            window.scrollTo(0, top);
+
+        },
+    },
+
     mounted() {
+
         let $switch = document.querySelector('.bi-moon');
         $switch.addEventListener('click', (event)=>{
+            
             event.preventDefault();
 
             let body = document.querySelector("body");
             body.style.backgroundColor = "#FFFFFF";
 
             body.style.opacity = "1";
+
             for(let prop of document.querySelectorAll("p")) {
                 prop.style.color = "#000000";
             }
             
             document.querySelector(".bi-moon").style.color = "#000000";
+
         });
     }
 }
