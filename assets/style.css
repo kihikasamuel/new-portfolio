@@ -88,8 +88,8 @@ main, header, .row-intro{
     top: 0;
     left: 0;
     color: var(--main-text-color);
-    width: inherit;
     height: var(--section-height);
+    width: inherit;
     overflow: hidden;
     /* background: url(~/assets/img/coolbg.jpg) transparent no-repeat; */
     /* background-size: cover auto; */
@@ -126,16 +126,19 @@ h3 #title{
 }
 
 @media screeen and (max-width:762px){
+    #intro-section {
+        max-height: var(120vh);
+    }
     body p{
         font-size: 2rem !important;
     }
 }
 
-/* @media screen and (min-width:763){
+@media screen and (min-width:763){
     #intro-section{
-        height: var(--section-height);
+        max-height: var(--section-height);
     }
-} */
+}
 
 .wave{
     animation-name: waving;
