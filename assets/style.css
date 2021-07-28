@@ -37,7 +37,7 @@ body{
     background: var(--dark2-theme);
 }
 
-#cards, #know-me, #education, header, #interests{
+#cards, #know-me, #education, header, #interests, .built-with{
     border-bottom:solid 1px var(--text-gray)
 }
 
@@ -293,6 +293,6 @@ strong, .intro-part p span {
 }
 
 /* ===Interests=== */
-.blog-card-img, .blog-card{
+/* .blog-card-img, .blog-card{
     max-width: 20vw;
-}
+} */
