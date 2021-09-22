@@ -5,20 +5,20 @@
                 <div class="row-intro d-md-flex flex-md-row flex-sm-column justify-content-center p-md-5 p-sm-3">
                     <div class="p-2">
                         <div class="m-2">
-                            <img src="~/assets/img/avatar.jpeg" class="img-fluid avatar" alt="" />
+                            <img src="~/assets/img/favicon.jpeg" class="img-fluid avatar" alt="" />
                         </div>
                     </div>
                     
                     <div class="mt-3 p-2">
-                        <h5>Hello, I'm Sam <span class="wave">👋</span></h5>
+                        <h5>Hello <span class="wave">👋</span>! My name is Sam.</h5>
                         <h6>I'm a<span id="title"> web developer</span>.</h6>
                         <!-- <p>I'm Frontend-cum-fullstack Web Developer based in Nairobi, Kenya.</p> -->
                         <p>
-                            I help you build attractive, highly responsive and accessible web apps with 
+                            I will help you build attractive, highly responsive and accessible web apps with 
                             <br/>carefully crafted code.
                         </p>
                         <p>
-                            I'm so grateful you made it your way to my site. Am sure you'll love taking
+                            I'm so grateful you made it your way to my site. I'm sure you'll love taking
                             <br>a tour around to know more about me.
                         </p>
                         <div class="d-flex flex-row intro-btn">
@@ -470,6 +470,8 @@ export default {
             var top = element.offsetTop;
 
             window.scrollTo(0, top);
+            // $P$B6/CxRt7b6VQdjJpmCDf8pfsxZXShL0-ann
+            // $P$B8OfGaYpYUK2PSN7Xk2sjX38fJ9//K0
 
         },
     }

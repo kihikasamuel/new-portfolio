@@ -104,10 +104,10 @@ main, header, .row-intro{
 }
 
 .avatar{
-    max-width: 170px;
-    max-height: 170px;
-    min-width: 170px;
-    min-height: 170px;
+    max-width: 220px;
+    max-height: 220px;
+    min-width: 220px;
+    min-height: 220px;
     border-radius: 50%;
     border: solid 10px #26292c;
     border-image: initial;
