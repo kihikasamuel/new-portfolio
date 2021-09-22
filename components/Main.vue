@@ -342,24 +342,7 @@
 
                 <div class="row services-head"><h5>Blogs</h5></div>
                 <div class="row built-with justify-content-around" id="blogs">
-                    <div class="col-md-4 col-sm-12 p-3">
-                        <div class="card blog-card">
-                            <a href="https://blog.samkihika.site/callback-hell-in-javascript" target="parent">
-                                <img src="~assets/img/hashnode1.jpg" alt="Callbacks N Promises"
-                                class="card-img-top blog-card-img">
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">Callback vs Promises</h5>
-                                <p class="card-text">
-                                    Why and when you should use promises in JavaScript instead of callbacks. 
-                                </p>
-                                <p class="card-text">
-                                    With an introduction to callback-hell.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
+                    <!--  -->
                     <div class="col-md-4 col-sm-12 p-3">
                         <div class="card blog-card">
                             <a href="https://blog.samkihika.site/what-javascript-framework-to-use" target="parent">
@@ -377,6 +360,25 @@
                             </div>
                         </div>
                     </div>
+                    <!-- === -->
+                    <div class="col-md-4 col-sm-12 p-3">
+                        <div class="card blog-card">
+                            <a href="https://blog.samkihika.site/callback-hell-in-javascript" target="parent">
+                                <img src="~assets/img/hashnode1.jpg" alt="Callbacks N Promises"
+                                class="card-img-top blog-card-img">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">Callback vs Promises</h5>
+                                <p class="card-text">
+                                    Why and when you should use promises in JavaScript instead of callbacks. 
+                                </p>
+                                <p class="card-text">
+                                    With an introduction to callback-hell.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
                 </div>
 
                 <!-- signof -->
