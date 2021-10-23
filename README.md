@@ -1,6 +1,8 @@
 # new-portfolio
+View it here <a>new portfolio</a>
 Fresh crafted portfolio/personal website.
-Building it first in pure html and css(bootstrap).
+Built it first using pure html and css(bootstrap).
+Built the second and current version using Nuxt.js, Vue.js and bootstrap.
 <h2>Hello</h2>
 
 
