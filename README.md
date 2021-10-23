@@ -1,5 +1,5 @@
 # new-portfolio
-View it here <a>new portfolio</a>
+View it here <a href="https://samkihika.site">new portfolio</a>
 Fresh crafted portfolio/personal website.
 Built it first using pure html and css(bootstrap).
 Built the second and current version using Nuxt.js, Vue.js and bootstrap.
