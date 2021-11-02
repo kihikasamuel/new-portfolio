@@ -14,7 +14,7 @@
                         <h6>A<span id="title"> fullstack web developer</span>.</h6>
                         <!-- <p>I'm Frontend-cum-fullstack Web Developer based in Nairobi, Kenya.</p> -->
                         <p>
-                            I'm a software and Web3 enthusiast. I l💝ve to code <b>Frontend</b> and <b>Backend</b>.
+                            I'm a software and Web3 enthusiast. I love to code <b>Frontend</b> and <b>Backend</b>.
                         </p>
                         <!-- <p>
                             I'm so grateful you made it your way to my site. I'm sure you'll love taking

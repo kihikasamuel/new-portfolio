@@ -3,7 +3,7 @@ export default {
     head: {
         title: 'Samkihika.site: Fullstack JavaScript Developer' || process.env.npm_package_name,
         link: [
-            {rel: 'icon', href: 'favicon.jpeg', type: 'image/x-icon'}
+            {rel: 'icon', href: 'favicon.png', type: 'image/x-icon'}
         ],
         meta: [
             {charset: 'utf-8'},
