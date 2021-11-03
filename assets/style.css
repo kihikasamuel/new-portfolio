@@ -41,8 +41,8 @@ body{
     border-bottom:solid 1px var(--text-gray)
 }
 .intro-after{
-    /* border-bottom:solid 1px var(--text-gray) !important; */
-    height: 1px;
+    border-bottom:solid 1px var(--text-gray) !important;
+    /* height: 1px; */
     /* width: fit-content; */
 }
 

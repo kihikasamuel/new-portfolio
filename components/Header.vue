@@ -6,8 +6,8 @@
 
                 <!-- collapse on mobile -->
                 <!--  -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleMenu" aria-expanded="false"
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#collapsibleMenu" aria-expanded="false"
                     aria-controls="collapsibleMenu" aria-label="Toggle Navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -24,13 +24,13 @@
                             <a href="#" class="nav-link m-2" @click.prevent="scrollMeTo('about-section')">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link m-2" @click.prevent="scrollMeTo('interests-head')">Interests</a>
+                            <a href="#" class="nav-link m-2" @click.prevent="scrollMeTo('interests-head')">Interests</a>
                         </li>
                         <li class="nav-item">
-                            <!-- <a href="index.html" class="nav-link m-2">Certification</a> -->
+                            <a href="#" class="nav-link m-2" @click.prevent="scrollMeTo('blogs')">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link m-2" @click.prevent="scrollMeTo('blogs')">Blog</a>
+                            <a href="#" class="nav-link m-2" @click.prevent="scrollMeTo('footer')">Contacts</a>
                         </li>
                     </ul>
                 </div>
