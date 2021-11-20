@@ -18,7 +18,7 @@ export default {
     },
     loading: {
         name: 'three-bounce',
-        duration: 2000,
+        duration: 200,
         continuous: true,
         color: 'aquamarine',
         failedColorString: 'black',
