@@ -1,4 +1,4 @@
-My personal website built Nuxt.js and Vue.js.
+My personal website built with Nuxt.js and Vue.js.
 
 See the hosted site 👉 <a href="https://samkihika.site">samkihika.site</a>
 
